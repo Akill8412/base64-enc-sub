@@ -18,7 +18,7 @@ jobs:
       - name: Fetch and merge subscriptions
         env:
           SUB_URLS: |
-            zieng2:https://raw.githubusercontent.com/zieng2/wl/refs/heads/main/vless_universal.txt
+            zieng2:https://bitbucket.org/zieng2/wl/raw/main/vless_universal.txt
             igareck:https://bitbucket.org/igareck/vpn-configs-for-russia/raw/main/Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt
             whoahaow:https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt
         run: |
