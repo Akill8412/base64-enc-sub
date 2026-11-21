@@ -3,7 +3,7 @@ name: Update Subscription
 on:
   schedule:
     # Запуск каждый час в 00 минут
-    - cron: '30 * * * *'
+    - cron: '18 * * * *'
   # Кнопка для ручного запуска во вкладке Actions
   workflow_dispatch:
 
