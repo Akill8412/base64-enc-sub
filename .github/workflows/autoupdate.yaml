@@ -17,7 +17,7 @@ jobs:
       - name: Setup Python and Xray-core
         run: |
           pip install aiohttp
-          curl -L -o xray.zip ://github.com
+          curl -L -o xray.zip https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
           unzip -q xray.zip -d xray_bin
           chmod +x xray_bin/xray
 
@@ -34,7 +34,7 @@ jobs:
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@://github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           
           rm -rf xray_bin xray.zip Sub.txt index.html zieng2.txt igareck.txt whoahaow.txt
           git add -A
