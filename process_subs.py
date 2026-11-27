@@ -16,7 +16,7 @@ XRAY_BIN = os.environ.get("XRAY_PATH", "./xray")
 DB_FILE = "pool_db.json"
 CIDR_FILE = "whitelist_cidr.txt"
 
-ALLOWED_SCHEMES = ("vless://", "trojan://", "vmess://", "ss://")
+ALLOWED_SCHEMES = ("vless://", "trojan://", "vmess://") #ss:// иногда может не работать
 MAX_FAILS = 3          # Сколько циклов подряд прощаем падение ключа перед удалением
 CONCURRENCY = 25       # Сколько параллельных процессов Xray запускать
 MIN_SPEED_KBPS = 150   # Минимальная скорость скачивания тестового куска (КБ/с)
