@@ -1,17 +1,4 @@
 {
-  "b6a834bad9d86ada5b6c301aac02f1890393f011": {
-    "uri": "vless://a71d6c6d-c95e-4ec1-a892-22e21733bf09@178.248.236.229:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=_3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0&security=reality&sid=d05a120d3506d2cc&sni=144.hexdey.com&type=tcp",
-    "host": "178.248.236.229",
-    "port": 443,
-    "sources": [
-      "zieng2"
-    ],
-    "uptime": 22,
-    "fails": 0,
-    "ip": "178.248.236.229",
-    "exit_loc": "DE",
-    "speed_kbps": 176
-  },
   "f0429d10b4244794859a4ed4c93a2dfe377174de": {
     "uri": "vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&security=reality&sid=5c256336e3b673fa&sni=www.cloudflare.com&type=tcp",
     "host": "195.123.213.28",
