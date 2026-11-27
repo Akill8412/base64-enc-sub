@@ -25,6 +25,7 @@ jobs:
         env:
           XRAY_PATH: ./xray_bin/xray
           SUB_URLS: |
+            LinSpisokObhod:https://raw.githubusercontent.com/LSO-LinSpisokObhod/LSO-LinSpisokObhod.github.io/refs/heads/main/sub/ALL.txt
             whoahaow:https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt
             zieng2:https://bitbucket.org/zieng2/wl/raw/main/vless_universal.txt
             igareck:https://bitbucket.org/igareck/vpn-configs-for-russia/raw/b2656fb8c188a36b25075fc206c2f4d44f01b4e9/WHITE-CIDR-RU-all.txt
