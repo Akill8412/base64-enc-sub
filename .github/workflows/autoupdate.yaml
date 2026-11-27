@@ -25,8 +25,6 @@ jobs:
         env:
           XRAY_PATH: ./xray_bin/xray
           SUB_URLS: |
-            gpucloud_merged:https://s3c3.001.gpucloud.ru/wlr/merged.txt
-            pulseproxy:https://raw.githack.com/pie-with-jam/PulseProxy/refs/heads/main/githubmirror/30.txt
             whoahaow:https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt
             zieng2:https://bitbucket.org/zieng2/wl/raw/main/vless_universal.txt
             igareck:https://bitbucket.org/igareck/vpn-configs-for-russia/raw/b2656fb8c188a36b25075fc206c2f4d44f01b4e9/WHITE-CIDR-RU-all.txt
@@ -41,7 +39,6 @@ jobs:
             mygalaru:https://raw.githubusercontent.com/btsk161/Freeinternet_byMygalaru.github.io/refs/heads/main/premium.txt
             swordware:https://raw.githubusercontent.com/mbelspb-gif/ffsfsfssdf/refs/heads/main/TG-swordware
             v0id9:https://raw.githubusercontent.com/v0id9/vpn-configs/refs/heads/main/vpn.txt
-            mmaksim9191:https://raw.githubusercontent.com/mmaksim9191/my-vpn-configs/refs/heads/main/configs/mobile-whitelist-1.txt
         run: |
           python3 process_subs.py
 
