@@ -103,6 +103,7 @@ def clean_and_normalize_uri(raw_line: str):
         params = {k: v[0] for k, v in qs.items()}
 
         params.pop("Telegram", None)
+        params.pop("spx", None)
 
         if params.get("type") == "raw":
             params["type"] = "tcp"
